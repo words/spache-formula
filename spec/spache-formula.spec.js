@@ -30,14 +30,14 @@ describe('spacheFormula()', function () {
         assert(result !== result);
 
         roundAssert(spacheFormula({
-            'word' : 30,
-            'sentence' : 2,
-            'unfamiliarWord' : 6
+            'word': 30,
+            'sentence': 2,
+            'unfamiliarWord': 6
         }), 4.114);
 
         roundAssert(spacheFormula({
-            'word' : 30,
-            'sentence' : 2
+            'word': 30,
+            'sentence': 2
         }), 2.474);
     });
 });
