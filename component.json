@@ -9,8 +9,8 @@
     "readability",
     "formula"
   ],
+  "repository": "wooorm/spache-formula",
   "scripts": [
     "index.js"
-  ],
-  "repository": "wooorm/spache-formula"
+  ]
 }
