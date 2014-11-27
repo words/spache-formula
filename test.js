@@ -4,7 +4,7 @@
  * Module dependencies (spacheFormula, assert).
  */
 
-var spacheFormula = require('..'),
+var spacheFormula = require('./'),
     assert = require('assert');
 
 /**
