@@ -1,5 +1,5 @@
 
-n.n.n / 2014-11-27
+0.1.1 / 2014-11-27
 ==================
 
  * Fix error introduced in edfb38f
