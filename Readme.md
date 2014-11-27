@@ -60,4 +60,4 @@ Given the number of words (`word`), the number of sentences (`sentence`), and th
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
