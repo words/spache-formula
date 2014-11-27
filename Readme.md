@@ -1,4 +1,4 @@
-# spache-formula [![Build Status](https://travis-ci.org/wooorm/spache-formula.svg?branch=master)](https://travis-ci.org/wooorm/spache-formula) [![Coverage Status](https://img.shields.io/coveralls/wooorm/spache-formula.svg)](https://coveralls.io/r/wooorm/spache-formula?branch=master)
+# spache-formula [![Build Status](https://img.shields.io/travis/wooorm/spache-formula.svg?style=flat)](https://travis-ci.org/wooorm/spache-formula) [![Coverage Status](https://img.shields.io/coveralls/wooorm/spache-formula.svg?style=flat)](https://coveralls.io/r/wooorm/spache-formula?branch=master)
 
 Formula to detect the grade level of text according to the (revised) Spache Readability Formula.
 
