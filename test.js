@@ -1,14 +1,17 @@
 'use strict';
 
 /**
- * Module dependencies (spacheFormula, assert).
+ * Dependencies.
  */
 
-var spacheFormula = require('./'),
-    assert = require('assert');
+var spacheFormula,
+    assert;
+
+spacheFormula = require('./');
+assert = require('assert');
 
 /**
- * Assert, but up to 6 digits.
+ * Utilities.
  */
 
 function roundAssert(a, b) {
@@ -16,7 +19,7 @@ function roundAssert(a, b) {
 }
 
 /**
- * Unit tests.
+ * Tests.
  */
 
 describe('spacheFormula()', function () {
@@ -25,7 +28,9 @@ describe('spacheFormula()', function () {
     });
 
     it('should work', function () {
-        var result = spacheFormula();
+        var result;
+
+        result = spacheFormula();
 
         assert(result !== result);
 
