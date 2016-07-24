@@ -1,48 +1,35 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2014 Titus Wormer
+ * @license MIT
+ * @module spache-formula
+ * @fileoverview Test suite for `spache-formula`.
+ */
+
 'use strict';
 
-/**
- * Dependencies.
- */
+/* Dependencies. */
+var test = require('tape');
+var nan = require('is-nan');
+var spache = require('./');
 
-var spacheFormula,
-    assert;
+/* Formula. */
+test('daleChall', function (t) {
+  t.ok(nan(spache()), 'NaN when an invalid value is given');
 
-spacheFormula = require('./');
-assert = require('assert');
+  t.equal(
+    round(spache({word: 30, sentence: 2, unfamiliarWord: 6})),
+    4.114
+  );
 
-/**
- * Utilities.
- */
+  t.equal(
+    round(spache({word: 30, sentence: 2})),
+    2.474
+  );
 
-function roundAssert(a, b) {
-    assert(Math.round(a * 1000000) === Math.round(b * 1000000));
-}
-
-/**
- * Tests.
- */
-
-describe('spacheFormula()', function () {
-    it('should be of type `function`', function () {
-        assert(typeof spacheFormula === 'function');
-    });
-
-    it('should work', function () {
-        var result;
-
-        result = spacheFormula();
-
-        assert(result !== result);
-
-        roundAssert(spacheFormula({
-            'word': 30,
-            'sentence': 2,
-            'unfamiliarWord': 6
-        }), 4.114);
-
-        roundAssert(spacheFormula({
-            'word': 30,
-            'sentence': 2
-        }), 2.474);
-    });
+  t.end();
 });
+
+function round(val) {
+  return Math.round(val * 1e6) / 1e6;
+}

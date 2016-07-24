@@ -1,13 +1,26 @@
 language: node_js
-script: npm run-script test-travis
+sudo: false
 node_js:
-- '0.10'
 - '0.11'
-after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
+- '0.12'
+- '4.0'
+- '5.0'
+- '6.0'
+after_success: bash <(curl -s https://codecov.io/bash)
 deploy:
-  provider: npm
-  email: tituswormer@gmail.com
-  api_key:
-    secure: YoWDacyimYvCc17UmUrEueQuk5GVkzMaa76Cj9B5BhPSa3Z3XKN69Yo9gjXq7LX9HPz5VIXzHXaDWmTnT978VI2ZW0CE8C+FIWkZs1SeXeWvVFC7iuiuLFcROrwxjJZbVp8sDsGxRztbJ6VYjURGF5A4d5kTX/tDlBbi9ZZaBg8=
-  on:
-    repo: wooorm/spache-formula
+  - provider: npm
+    email: tituswormer@gmail.com
+    api_key:
+      secure: lx4l1zKeVfypPn0amZXcRnKkxWYgmtzkvrjvT/Md+NgTUiyVs+Cu4I0RXnvYK0nKJ572b2iKFBxhKBYcSWMWB8OW6IPHxmw4ZyRWMpXyf1pdpGW0JTKeYlQEJqru7dy91+xAl3TpQLRc5YccQ6iEYZU8wK/y5Hvu3+Ly04HBMpk=
+    on:
+      tags: true
+      node: '5.0'
+  - provider: releases
+    api_key:
+      secure: jGD7p6O+fkl054+4sSfci7WbLoVXoHMhkxQKZ89Gexl/nmaEN6QJK/a+yVkKpDQEwX1GD1f3fS0TqOmkW0aOlpNY35VxZkD0kHqhpqaA4KCH6BdGrFMv/qfXoLiNy8dBfdSg3OaqxTjnIVMTKQzx1D1+BKj34xksD7fiRWwDmPY=
+    file:
+      - "spache-formula.js"
+      - "spache-formula.min.js"
+    on:
+      tags: true
+      node: '6.0'

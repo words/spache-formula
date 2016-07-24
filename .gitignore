@@ -1,7 +1,8 @@
 .DS_Store
 *.log
-bower_components/
-build/
-components/
-node_modules/
+.nyc_output/
 coverage/
+data/
+node_modules/
+spache-formula.js
+spache-formula.min.js
