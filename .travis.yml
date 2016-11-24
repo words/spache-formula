@@ -2,9 +2,8 @@ language: node_js
 sudo: false
 node_js:
 - '4.0'
-- '5.0'
-- '6.0'
-after_success: bash <(curl -s https://codecov.io/bash)
+- '7.0'
+after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
   - provider: npm
     email: tituswormer@gmail.com
@@ -12,7 +11,7 @@ deploy:
       secure: lx4l1zKeVfypPn0amZXcRnKkxWYgmtzkvrjvT/Md+NgTUiyVs+Cu4I0RXnvYK0nKJ572b2iKFBxhKBYcSWMWB8OW6IPHxmw4ZyRWMpXyf1pdpGW0JTKeYlQEJqru7dy91+xAl3TpQLRc5YccQ6iEYZU8wK/y5Hvu3+Ly04HBMpk=
     on:
       tags: true
-      node: '5.0'
+      node: '4.0'
   - provider: releases
     api_key:
       secure: jGD7p6O+fkl054+4sSfci7WbLoVXoHMhkxQKZ89Gexl/nmaEN6QJK/a+yVkKpDQEwX1GD1f3fS0TqOmkW0aOlpNY35VxZkD0kHqhpqaA4KCH6BdGrFMv/qfXoLiNy8dBfdSg3OaqxTjnIVMTKQzx1D1+BKj34xksD7fiRWwDmPY=
@@ -21,4 +20,4 @@ deploy:
       - "spache-formula.min.js"
     on:
       tags: true
-      node: '6.0'
+      node: '7.0'
