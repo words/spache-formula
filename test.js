@@ -1,19 +1,9 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module spache-formula
- * @fileoverview Test suite for `spache-formula`.
- */
-
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
 var nan = require('is-nan');
 var spache = require('./');
 
-/* Formula. */
 test('daleChall', function (t) {
   t.ok(nan(spache()), 'NaN when an invalid value is given');
 
