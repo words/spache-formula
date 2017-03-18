@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = exports = spache;
+module.exports = spache;
 
 var SENTENCE_WEIGHT = 0.121;
 var WORD_WEIGHT = 0.082;
