@@ -7,7 +7,7 @@ See [`spache`][list] for a list of words which count as “known”.
 
 ## Installation
 
-[npm][npm-install]:
+[npm][]:
 
 ```bash
 npm install spache-formula
@@ -40,19 +40,19 @@ associated with the document.
 ## Related
 
 *   [`automated-readability`](https://github.com/wooorm/automated-readability)
-    — Uses character count instead of error-prone syllable parser;
+    — Uses character count instead of error-prone syllable parser
 *   [`coleman-liau`](https://github.com/wooorm/coleman-liau)
-    — Uses letter count instead of an error-prone syllable parser;
+    — Uses letter count instead of an error-prone syllable parser
 *   [`dale-chall-formula`](https://github.com/wooorm/dale-chall-formula)
-    — Uses a dictionary; suited for higher reading levels;
+    — Uses a dictionary, suited for higher reading levels
 *   [`flesch`](https://github.com/wooorm/flesch)
-    — Uses syllable count;
+    — Uses syllable count
 *   [`flesch-kincaid`](https://github.com/wooorm/flesch-kincaid)
-    — Like `flesch`; returns U.S. grade levels;
+    — Like `flesch`, returns U.S. grade levels
 *   [`gunning-fog`](https://github.com/wooorm/gunning-fog)
-    — Uses syllable count; needs POS-tagging and NER;
+    — Uses syllable count, needs POS-tagging and NER
 *   [`smog-formula`](https://github.com/wooorm/smog-formula)
-    — Like `gunning-fog`; without the need for advanced NLP tasks.
+    — Like `gunning-fog`, without the need for advanced NLP tasks
 
 ## License
 
@@ -68,7 +68,7 @@ associated with the document.
 
 [codecov]: https://codecov.io/github/wooorm/spache-formula
 
-[npm-install]: https://docs.npmjs.com/cli/install
+[npm]: https://docs.npmjs.com/cli/install
 
 [license]: LICENSE
 
