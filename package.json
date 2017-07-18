@@ -9,14 +9,14 @@
     "readability",
     "formula"
   ],
-  "files": [
-    "index.js"
-  ],
-  "repository": "https://github.com/wooorm/spache-formula",
+  "repository": "wooorm/spache-formula",
   "bugs": "https://github.com/wooorm/spache-formula/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -53,6 +53,8 @@
     ]
   },
   "remarkConfig": {
-    "plugins": ["preset-wooorm"]
+    "plugins": [
+      "preset-wooorm"
+    ]
   }
 }
