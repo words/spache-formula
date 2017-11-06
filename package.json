@@ -9,8 +9,8 @@
     "readability",
     "formula"
   ],
-  "repository": "wooorm/spache-formula",
-  "bugs": "https://github.com/wooorm/spache-formula/issues",
+  "repository": "words/spache-formula",
+  "bugs": "https://github.com/words/spache-formula/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"

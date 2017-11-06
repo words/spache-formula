@@ -60,13 +60,13 @@ associated with the document.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/spache-formula.svg
+[travis-badge]: https://img.shields.io/travis/words/spache-formula.svg
 
-[travis]: https://travis-ci.org/wooorm/spache-formula
+[travis]: https://travis-ci.org/words/spache-formula
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/spache-formula.svg
+[codecov-badge]: https://img.shields.io/codecov/c/github/words/spache-formula.svg
 
-[codecov]: https://codecov.io/github/wooorm/spache-formula
+[codecov]: https://codecov.io/github/words/spache-formula
 
 [npm]: https://docs.npmjs.com/cli/install
 
