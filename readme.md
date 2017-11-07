@@ -39,19 +39,19 @@ associated with the document.
 
 ## Related
 
-*   [`automated-readability`](https://github.com/wooorm/automated-readability)
+*   [`automated-readability`](https://github.com/words/automated-readability)
     — Uses character count instead of error-prone syllable parser
-*   [`coleman-liau`](https://github.com/wooorm/coleman-liau)
+*   [`coleman-liau`](https://github.com/words/coleman-liau)
     — Uses letter count instead of an error-prone syllable parser
-*   [`dale-chall-formula`](https://github.com/wooorm/dale-chall-formula)
+*   [`dale-chall-formula`](https://github.com/words/dale-chall-formula)
     — Uses a dictionary, suited for higher reading levels
-*   [`flesch`](https://github.com/wooorm/flesch)
+*   [`flesch`](https://github.com/words/flesch)
     — Uses syllable count
-*   [`flesch-kincaid`](https://github.com/wooorm/flesch-kincaid)
+*   [`flesch-kincaid`](https://github.com/words/flesch-kincaid)
     — Like `flesch`, returns U.S. grade levels
-*   [`gunning-fog`](https://github.com/wooorm/gunning-fog)
+*   [`gunning-fog`](https://github.com/words/gunning-fog)
     — Uses syllable count, needs POS-tagging and NER
-*   [`smog-formula`](https://github.com/wooorm/smog-formula)
+*   [`smog-formula`](https://github.com/words/smog-formula)
     — Like `gunning-fog`, without the need for advanced NLP tasks
 
 ## License
