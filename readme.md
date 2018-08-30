@@ -16,16 +16,13 @@ npm install spache-formula
 ## Usage
 
 ```js
-var spacheFormula = require('spache-formula');
+var spacheFormula = require('spache-formula')
 
-spacheFormula({word: 30, sentence: 2, unfamiliarWord: 6});
-// 4.114
+spacheFormula({word: 30, sentence: 2, unfamiliarWord: 6}) // => 4.114
 
-spacheFormula({word: 30, sentence: 2});
-// 2.474
+spacheFormula({word: 30, sentence: 2}) // => 2.474
 
-spacheFormula()
-// NaN
+spacheFormula() // => NaN
 ```
 
 ## API
