@@ -5,3 +5,4 @@ coverage/
 node_modules/
 spache-formula.js
 spache-formula.min.js
+yarn.lock
