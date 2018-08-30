@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var nan = require('is-nan');
-var spache = require('./');
+var spache = require('.');
 
 test('daleChall', function (t) {
   t.ok(nan(spache()), 'NaN when an invalid value is given');
