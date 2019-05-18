@@ -5,8 +5,8 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Formula to detect the grade level of text according to the
-[(revised) Spache Readability Formula][formula].
+Formula to detect the grade level of text according to the [(revised) Spache
+Readability Formula][formula].
 
 See [`spache`][list] for a list of words which count as “known”.
 
@@ -34,10 +34,9 @@ spacheFormula() // => NaN
 
 ### `spacheFormula(counts)`
 
-Given the number of words (`word`), the number of sentences
-(`sentence`), and the number of unique unfamiliar words
-(`unfamiliarWord`) in a document, returns the grade level
-associated with the document.
+Given the number of words (`word`), the number of sentences (`sentence`), and
+the number of unique unfamiliar words (`unfamiliarWord`) in a document, returns
+the grade level associated with the document.
 
 ## Related
 
