@@ -10,7 +10,7 @@ var base = 0.659
 // Get the grade level of a given value according to the Spache Readability
 // Formula.
 // More information is available at WikiPedia:
-// <http://en.wikipedia.org/wiki/Spache_Readability_Formula>
+// <https://en.wikipedia.org/wiki/Spache_Readability_Formula>
 function spache(counts) {
   if (!counts || !counts.sentence || !counts.word) {
     return NaN

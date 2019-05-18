@@ -69,8 +69,8 @@ associated with the document.
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
-[formula]: http://en.wikipedia.org/wiki/Spache_Readability_Formula
+[formula]: https://en.wikipedia.org/wiki/Spache_Readability_Formula
 
 [list]: https://github.com/wooorm/spache
