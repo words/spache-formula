@@ -6,19 +6,19 @@
 [![Size][size-badge]][size]
 
 Formula to detect the grade level of text according to the [(revised) Spache
-Readability Formula][formula].
+readability formula][formula].
 
 See [`spache`][list] for a list of words which count as “known”.
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install spache-formula
 ```
 
-## Usage
+## Use
 
 ```js
 var spacheFormula = require('spache-formula')
