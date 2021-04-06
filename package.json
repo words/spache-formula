@@ -1,6 +1,6 @@
 {
   "name": "spache-formula",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Formula to detect the grade level of text according to the (revised) Spache Readability Formula (1974)",
   "license": "MIT",
   "keywords": [
