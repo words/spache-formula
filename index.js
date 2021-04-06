@@ -13,7 +13,7 @@ var base = 0.659
 // <https://en.wikipedia.org/wiki/Spache_Readability_Formula>
 function spache(counts) {
   if (!counts || !counts.sentence || !counts.word) {
-    return NaN
+    return Number.NaN
   }
 
   return (
