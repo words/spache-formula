@@ -1,8 +1,5 @@
 .DS_Store
 *.log
-.nyc_output/
 coverage/
 node_modules/
-spache-formula.js
-spache-formula.min.js
 yarn.lock

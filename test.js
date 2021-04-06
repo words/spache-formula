@@ -1,12 +1,13 @@
-'use strict'
-
-var test = require('tape')
-var spache = require('.')
+import test from 'tape'
+import {spacheFormula} from './index.js'
 
 test('spacheFormula', function (t) {
-  t.ok(Number.isNaN(spache()), 'NaN when an invalid value is given')
-  t.equal(round(spache({word: 30, sentence: 2, unfamiliarWord: 6})), 4.114)
-  t.equal(round(spache({word: 30, sentence: 2})), 2.474)
+  t.ok(Number.isNaN(spacheFormula()), 'NaN when an invalid value is given')
+  t.equal(
+    round(spacheFormula({word: 30, sentence: 2, unfamiliarWord: 6})),
+    4.114
+  )
+  t.equal(round(spacheFormula({word: 30, sentence: 2})), 2.474)
   t.end()
 })
 

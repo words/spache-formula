@@ -12,6 +12,9 @@ See [`spache`][list] for a list of words which count as “known”.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -21,7 +24,7 @@ npm install spache-formula
 ## Use
 
 ```js
-var spacheFormula = require('spache-formula')
+import {spacheFormula} from 'spache-formula'
 
 spacheFormula({word: 30, sentence: 2, unfamiliarWord: 6}) // => 4.114
 
@@ -31,6 +34,9 @@ spacheFormula() // => NaN
 ```
 
 ## API
+
+This package exports the following identifiers: `spacheFormula`.
+There is no default export.
 
 ### `spacheFormula(counts)`
 
